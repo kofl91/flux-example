@@ -4,5 +4,5 @@
     "fileMatch": ["clusters/rancher-desktop/release-.+\\.ya?ml$"]
   },
   "platform": "github",
-  "repositories": [{ "repository": 'kofl91/flux-example', "bumpVersion": "true" }]
+  "repositories": [{ "repository": "kofl91/flux-example", "bumpVersion": "true" }]
 }
