@@ -16,7 +16,8 @@ jobs:
     - name: Checkout
       uses: actions/checkout@v3.5.3
     - name: Self-hosted Renovate
-      run: |
-        renovate kofl91/flux-example
-      env:
-        RENOVATE_TOKEN: ${{ secrets.RENOVATE_TOKEN }}
+      uses: renovatebot/github-action@v39.0.5
+      with:
+        renovate-version: 36.107.1
+        token: ${{ secrets.RENOVATE_TOKEN }}
+        configurationFile: renovate.json
