@@ -1,2 +1,3 @@
 resources:
   - release-external-secrets.yaml
+  - release-kubernetes-external-secrets.yaml
