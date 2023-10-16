@@ -1,6 +1,6 @@
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
-  "fileMatch": [
-    "(?:^|/)release-*\\.ya?ml$"
-  ]
+  "flux": {
+    "fileMatch": ["clusters/rancher-desktop/release.+\\.yaml$"]
+  }
 }
