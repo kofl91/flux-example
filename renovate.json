@@ -1,7 +1,6 @@
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
   "flux": {
-    "fileMatch": ["clusters/rancher-desktop/external-secrets/release-external-secrets.yaml",
-    "clusters/rancher-desktop/kubernetes-external-secrets/release-kubernetes-external-secrets.yaml"]
+    "fileMatch": ["clusters/rancher-desktop/release-.+\\.ya?ml$"]
   }
 }
